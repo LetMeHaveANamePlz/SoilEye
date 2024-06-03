@@ -55,7 +55,9 @@ After:
 ![image](https://github.com/LetMeHaveANamePlz/SoilEye/blob/main/Moisture_Monitor_System-main/test%20image/Rate%20of%20change.png)
 ![image](https://github.com/LetMeHaveANamePlz/SoilEye/blob/main/Moisture_Monitor_System-main/test%20image/Real-time%20humidity%20display.png)
 ![image](https://github.com/LetMeHaveANamePlz/SoilEye/blob/main/Moisture_Monitor_System-main/test%20image/Stability.png)
+![image](https://github.com/LetMeHaveANamePlz/SoilEye/blob/main/Moisture_Monitor_System-main/test%20image/Temperature%20display%20in%20real%20time.png)
 ![image]()
+
 ## Authors
 
 - [Haina Wang (UTS)](https://github.com/zqy2023)
