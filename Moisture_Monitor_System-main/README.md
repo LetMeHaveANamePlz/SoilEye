@@ -1,9 +1,13 @@
 # Moisture_Monitor_System
-We use the hardware components of Arduino uno and HC-05 Bluetooth module as well as the software components of node-red, InfluxDB and Grafana to form our soil moisture monitoring system, which can monitor the soil condition through the web page.
+We use the hardware components of Arduino uno, DHT11, pump, relay, soil moistrue sensor and solar panle system, as well as the software components of node-red, InfluxDB and Grafana to form our soil moisture monitoring system, which can monitor the soil condition through the web page.
 
 ## Hardware
-- Arduino uno 
-- BTHC-05 blueteeth modelur module
+- Arduino uno
+- DHT11
+- pump
+- Relay
+- Soil moistrue sensor
+- Solar panle system
 - Capacitive soil moisture sensor
 - Breadboard
 - Jumper wires
