@@ -18,7 +18,7 @@ See the hardware folder for specific descriptions.
 Below is a diagram depicting the hardware.
 ![image](https://github.com/LetMeHaveANamePlz/SoilEye/blob/main/Moisture_Monitor_System-main/Hardware/Hardware-DHT11.jpg)
 ![image](https://github.com/LetMeHaveANamePlz/SoilEye/blob/main/Moisture_Monitor_System-main/Hardware/Hardware-soil%20moistrue.png)
-![image]()
+![image](https://github.com/LetMeHaveANamePlz/SoilEye/blob/main/Moisture_Monitor_System-main/Hardware/Hardware-pump.jpg)
 
 
 ## Software
