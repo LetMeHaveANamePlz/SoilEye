@@ -1,0 +1,1166 @@
+[
+    {
+        "id": "657f2a0191ed7286",
+        "type": "tab",
+        "label": "流程 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "fe47136a.c87178",
+        "type": "ui_tab",
+        "name": "CoAP demo ",
+        "icon": "dashboard"
+    },
+    {
+        "id": "bf04708d.e5fdb",
+        "type": "ui_group",
+        "name": "Charts",
+        "tab": "fe47136a.c87178",
+        "order": 1,
+        "disp": true,
+        "width": "12"
+    },
+    {
+        "id": "74b5faa0.d65764",
+        "type": "ui_group",
+        "name": "Extra Info",
+        "tab": "fe47136a.c87178",
+        "order": 2,
+        "disp": true,
+        "width": "6"
+    },
+    {
+        "id": "f893d6df6f358fbd",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "d240e1e836951690",
+        "type": "influxdb",
+        "hostname": "127.0.0.1",
+        "port": "8086",
+        "protocol": "http",
+        "database": "",
+        "name": "",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "1.8-flux",
+        "url": "http://localhost:8086",
+        "rejectUnauthorized": true
+    },
+    {
+        "id": "e27a60d575266432",
+        "type": "influxdb",
+        "hostname": "127.0.0.1",
+        "port": "8086",
+        "protocol": "http",
+        "database": "FRIEND",
+        "name": "",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "1.8-flux",
+        "url": "http://localhost:8086",
+        "rejectUnauthorized": true
+    },
+    {
+        "id": "cce0f569.a41b68",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "47.74.84.136",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "protocolVersion": "3",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "solar",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "a1809e4f87edfb54",
+        "type": "prometheus-metric-config",
+        "name": "",
+        "help": "",
+        "labels": "",
+        "mtype": "gauge"
+    },
+    {
+        "id": "3637c02dac224867",
+        "type": "influxdb",
+        "hostname": "127.0.0.1",
+        "port": "8086",
+        "protocol": "http",
+        "database": "database",
+        "name": "Database",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "1.8-flux",
+        "url": "http://localhost:8086",
+        "rejectUnauthorized": true
+    },
+    {
+        "id": "3544dbd03841857e",
+        "type": "inject",
+        "z": "657f2a0191ed7286",
+        "name": "原神启动",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 100,
+        "y": 500,
+        "wires": [
+            [
+                "84cc1839067fb4ae",
+                "7a3fb2d3bb63eb33",
+                "0fdaf42be5b15747",
+                "2ce208d51684806f",
+                "45f060ab09e6b712"
+            ]
+        ]
+    },
+    {
+        "id": "1174cdab81a4caa2",
+        "type": "debug",
+        "z": "657f2a0191ed7286",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1560,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "e4af62c2683c957d",
+        "type": "function",
+        "z": "657f2a0191ed7286",
+        "name": "",
+        "func": "let array=msg.payload;\nmsg.topic=\"test/3\";\nfor (var i=1; i < array.length; i++){\n    msg.payload=array[i];\n    node.send(msg);\n}\n// array.forEach(function(item)\n// {\n//     msg.payload=item;\n//     node.send(msg);\n// })",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 260,
+        "wires": [
+            [
+                "aae5deb0586766b3"
+            ]
+        ]
+    },
+    {
+        "id": "db394164f1fe352f",
+        "type": "delay",
+        "z": "657f2a0191ed7286",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "3",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1340,
+        "y": 260,
+        "wires": [
+            [
+                "1174cdab81a4caa2",
+                "dd7dc4590b8e4881"
+            ]
+        ]
+    },
+    {
+        "id": "f2199f966e31ad3f",
+        "type": "debug",
+        "z": "657f2a0191ed7286",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1560,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "f272fec9720b7dff",
+        "type": "function",
+        "z": "657f2a0191ed7286",
+        "name": "",
+        "func": "let array=msg.payload;\nmsg.topic=\"test/3\";\nfor (var i=1; i < array.length; i++){\n    msg.payload=array[i];\n    node.send(msg);\n}\n\n// array.forEach(function(item)\n// {\n//     msg.payload=item;\n//     node.send(msg);\n// })",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 400,
+        "wires": [
+            [
+                "195b6bb9313d41b6"
+            ]
+        ]
+    },
+    {
+        "id": "f2a2a4b13bc17627",
+        "type": "delay",
+        "z": "657f2a0191ed7286",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "3",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1340,
+        "y": 400,
+        "wires": [
+            [
+                "f2199f966e31ad3f",
+                "e14631c179988cb8"
+            ]
+        ]
+    },
+    {
+        "id": "e14631c179988cb8",
+        "type": "influxdb out",
+        "z": "657f2a0191ed7286",
+        "influxdb": "e27a60d575266432",
+        "name": "",
+        "measurement": "moisture",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "SOILEYE",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 1640,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "ba872a1bdec07e60",
+        "type": "debug",
+        "z": "657f2a0191ed7286",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1560,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "148fdac1ee10d835",
+        "type": "function",
+        "z": "657f2a0191ed7286",
+        "name": "",
+        "func": "let array=msg.payload;\nmsg.topic=\"test/3\";\nfor (var i=1; i < array.length; i++){\n    msg.payload=array[i];\n    node.send(msg);\n}\n\n// array.forEach(function(item)\n// {\n//     msg.payload=item;\n//     node.send(msg);\n// })",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 560,
+        "wires": [
+            [
+                "5ec10be973c8518a"
+            ]
+        ]
+    },
+    {
+        "id": "5050c0df6291c993",
+        "type": "delay",
+        "z": "657f2a0191ed7286",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "3",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1340,
+        "y": 560,
+        "wires": [
+            [
+                "ba872a1bdec07e60",
+                "a4b35f6a9c857ee6"
+            ]
+        ]
+    },
+    {
+        "id": "a4b35f6a9c857ee6",
+        "type": "influxdb out",
+        "z": "657f2a0191ed7286",
+        "influxdb": "e27a60d575266432",
+        "name": "",
+        "measurement": "Rate of change",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "SOILEYE",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 1660,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "67d174d4a244e61b",
+        "type": "debug",
+        "z": "657f2a0191ed7286",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1560,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "c2f8f0c6d5c0db9e",
+        "type": "function",
+        "z": "657f2a0191ed7286",
+        "name": "",
+        "func": "let array=msg.payload;\nmsg.topic=\"test/3\";\nfor (var i=1; i < array.length; i++){\n    msg.payload=array[i];\n    node.send(msg);\n}\n\n// array.forEach(function(item)\n// {\n//     msg.payload=item;\n//     node.send(msg);\n// })",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 700,
+        "wires": [
+            [
+                "84baef69686c480d"
+            ]
+        ]
+    },
+    {
+        "id": "1513c208d9c20eaf",
+        "type": "delay",
+        "z": "657f2a0191ed7286",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "3",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1340,
+        "y": 700,
+        "wires": [
+            [
+                "67d174d4a244e61b",
+                "71a00d700cdfbf6f"
+            ]
+        ]
+    },
+    {
+        "id": "71a00d700cdfbf6f",
+        "type": "influxdb out",
+        "z": "657f2a0191ed7286",
+        "influxdb": "e27a60d575266432",
+        "name": "",
+        "measurement": "Degree of stability",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "SOILEYE",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 1670,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "84cc1839067fb4ae",
+        "type": "XLSX-to-json",
+        "z": "657f2a0191ed7286",
+        "name": "湿度moisture",
+        "filepath": "C:\\Users\\12610\\Desktop\\湿度温度复合.xlsx",
+        "rangecell": "B2:B28775",
+        "columnkey": "",
+        "sheet": "Sheet1",
+        "x": 430,
+        "y": 260,
+        "wires": [
+            [
+                "e4af62c2683c957d"
+            ]
+        ]
+    },
+    {
+        "id": "7a3fb2d3bb63eb33",
+        "type": "XLSX-to-json",
+        "z": "657f2a0191ed7286",
+        "name": "均值average value",
+        "filepath": "C:\\Users\\12610\\Desktop\\均值.xls",
+        "rangecell": "A2:A8415",
+        "columnkey": "{\"A\":\"Title\",\"B\":\"Description\"}",
+        "sheet": "Sheet1",
+        "x": 450,
+        "y": 400,
+        "wires": [
+            [
+                "f272fec9720b7dff"
+            ]
+        ]
+    },
+    {
+        "id": "0fdaf42be5b15747",
+        "type": "XLSX-to-json",
+        "z": "657f2a0191ed7286",
+        "name": "变化率Rate of change",
+        "filepath": "C:\\Users\\12610\\Desktop\\变化率.xls",
+        "rangecell": "A2:A8415",
+        "columnkey": "{\"A\":\"Title\",\"B\":\"Description\"}",
+        "sheet": "Sheet1",
+        "x": 460,
+        "y": 560,
+        "wires": [
+            [
+                "148fdac1ee10d835"
+            ]
+        ]
+    },
+    {
+        "id": "2ce208d51684806f",
+        "type": "XLSX-to-json",
+        "z": "657f2a0191ed7286",
+        "name": "稳定程度Degree of stability",
+        "filepath": "C:\\Users\\12610\\Desktop\\稳定度.xls",
+        "rangecell": "A2:A8415",
+        "columnkey": "{\"A\":\"Title\",\"B\":\"Description\"}",
+        "sheet": "Sheet1",
+        "x": 440,
+        "y": 680,
+        "wires": [
+            [
+                "c2f8f0c6d5c0db9e"
+            ]
+        ]
+    },
+    {
+        "id": "aae5deb0586766b3",
+        "type": "csv",
+        "z": "657f2a0191ed7286",
+        "name": "",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 870,
+        "y": 260,
+        "wires": [
+            [
+                "6b522ddabea5a35c"
+            ]
+        ]
+    },
+    {
+        "id": "195b6bb9313d41b6",
+        "type": "csv",
+        "z": "657f2a0191ed7286",
+        "name": "",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 870,
+        "y": 400,
+        "wires": [
+            [
+                "23be520e16b5cea0"
+            ]
+        ]
+    },
+    {
+        "id": "5ec10be973c8518a",
+        "type": "csv",
+        "z": "657f2a0191ed7286",
+        "name": "",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 870,
+        "y": 560,
+        "wires": [
+            [
+                "411a51729c005ad4"
+            ]
+        ]
+    },
+    {
+        "id": "84baef69686c480d",
+        "type": "csv",
+        "z": "657f2a0191ed7286",
+        "name": "",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 870,
+        "y": 700,
+        "wires": [
+            [
+                "86c26ca5a9665631"
+            ]
+        ]
+    },
+    {
+        "id": "6b522ddabea5a35c",
+        "type": "function",
+        "z": "657f2a0191ed7286",
+        "name": "function 1",
+        "func": "msg.payload = Number(msg.payload); \nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 260,
+        "wires": [
+            [
+                "db394164f1fe352f",
+                "8549e228f6f7283e"
+            ]
+        ]
+    },
+    {
+        "id": "23be520e16b5cea0",
+        "type": "function",
+        "z": "657f2a0191ed7286",
+        "name": "function 2",
+        "func": "msg.payload = Number(msg.payload); \nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 400,
+        "wires": [
+            [
+                "f2a2a4b13bc17627"
+            ]
+        ]
+    },
+    {
+        "id": "411a51729c005ad4",
+        "type": "function",
+        "z": "657f2a0191ed7286",
+        "name": "function 3",
+        "func": "msg.payload = Number(msg.payload); \nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1060,
+        "y": 560,
+        "wires": [
+            [
+                "5050c0df6291c993",
+                "39ee4e14417427a7"
+            ]
+        ]
+    },
+    {
+        "id": "86c26ca5a9665631",
+        "type": "function",
+        "z": "657f2a0191ed7286",
+        "name": "function 4",
+        "func": "msg.payload = Number(msg.payload); \nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 700,
+        "wires": [
+            [
+                "1513c208d9c20eaf"
+            ]
+        ]
+    },
+    {
+        "id": "3321727f312d48e9",
+        "type": "function",
+        "z": "657f2a0191ed7286",
+        "name": "function 20",
+        "func": "     let array = msg.payload;\n     {\n       msg.payload = `\n            Warnning!:\n            Beyond the plant's tolerance 37%-70%,\n            Please take measures immedieatly, \n            `\n            ;\n            node.send(msg);\n\n }",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1430,
+        "y": 100,
+        "wires": [
+            [
+                "ec5dfb96a5d80dda",
+                "8c795f0da9642702"
+            ]
+        ]
+    },
+    {
+        "id": "147d13a850c522c3",
+        "type": "switch",
+        "z": "657f2a0191ed7286",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "btwn",
+                "v": "0.7",
+                "vt": "num",
+                "v2": "0.369",
+                "v2t": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1230,
+        "y": 100,
+        "wires": [
+            [],
+            [
+                "3321727f312d48e9"
+            ]
+        ]
+    },
+    {
+        "id": "ec5dfb96a5d80dda",
+        "type": "e-mail",
+        "z": "657f2a0191ed7286",
+        "server": "smtp.qq.com",
+        "port": "465",
+        "authtype": "BASIC",
+        "saslformat": true,
+        "token": "oauth2Response.access_token",
+        "secure": true,
+        "tls": true,
+        "name": "1261004622@qq.com",
+        "dname": "",
+        "x": 1740,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "8c795f0da9642702",
+        "type": "debug",
+        "z": "657f2a0191ed7286",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1620,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "6d73e180b3371eec",
+        "type": "switch",
+        "z": "657f2a0191ed7286",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "btwn",
+                "v": "1.3",
+                "vt": "num",
+                "v2": "0.92",
+                "v2t": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1230,
+        "y": 880,
+        "wires": [
+            [],
+            [
+                "a034280b7ec10335"
+            ]
+        ]
+    },
+    {
+        "id": "a034280b7ec10335",
+        "type": "function",
+        "z": "657f2a0191ed7286",
+        "name": "function 21",
+        "func": "     let array = msg.payload;\n     {\n       msg.payload = `\n            Warnning!:\n          Rate of change anomoly, \n            `\n            ;\n            node.send(msg);\n\n }",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1430,
+        "y": 920,
+        "wires": [
+            [
+                "1f2ff721940d8543",
+                "10a19a7d4b043cc0"
+            ]
+        ]
+    },
+    {
+        "id": "1f2ff721940d8543",
+        "type": "debug",
+        "z": "657f2a0191ed7286",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1620,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "10a19a7d4b043cc0",
+        "type": "e-mail",
+        "z": "657f2a0191ed7286",
+        "server": "smtp.qq.com",
+        "port": "465",
+        "authtype": "BASIC",
+        "saslformat": true,
+        "token": "oauth2Response.access_token",
+        "secure": true,
+        "tls": true,
+        "name": "1261004622@qq.com",
+        "dname": "",
+        "x": 1800,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "8549e228f6f7283e",
+        "type": "delay",
+        "z": "657f2a0191ed7286",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "3",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1000,
+        "y": 140,
+        "wires": [
+            [
+                "147d13a850c522c3"
+            ]
+        ]
+    },
+    {
+        "id": "39ee4e14417427a7",
+        "type": "delay",
+        "z": "657f2a0191ed7286",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "3",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1000,
+        "y": 840,
+        "wires": [
+            [
+                "6d73e180b3371eec"
+            ]
+        ]
+    },
+    {
+        "id": "afb2657274da0e4e",
+        "type": "debug",
+        "z": "657f2a0191ed7286",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1420,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "e9ebf4aa3769244c",
+        "type": "function",
+        "z": "657f2a0191ed7286",
+        "name": "",
+        "func": "let array=msg.payload;\nmsg.topic=\"test/3\";\nfor (var i=1; i < array.length; i++){\n    msg.payload=array[i];\n    node.send(msg);\n}\n\n// array.forEach(function(item)\n// {\n//     msg.payload=item;\n//     node.send(msg);\n// })",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 1100,
+        "wires": [
+            [
+                "b7c08416053a1df8"
+            ]
+        ]
+    },
+    {
+        "id": "211bb267fc1910f5",
+        "type": "delay",
+        "z": "657f2a0191ed7286",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "3",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1200,
+        "y": 1100,
+        "wires": [
+            [
+                "afb2657274da0e4e",
+                "9ce0028b41fea719"
+            ]
+        ]
+    },
+    {
+        "id": "9ce0028b41fea719",
+        "type": "influxdb out",
+        "z": "657f2a0191ed7286",
+        "influxdb": "e27a60d575266432",
+        "name": "",
+        "measurement": "temp",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "SOILEYE",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 1490,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "45f060ab09e6b712",
+        "type": "XLSX-to-json",
+        "z": "657f2a0191ed7286",
+        "name": "温度",
+        "filepath": "C:\\Users\\12610\\Desktop\\温度.xlsx",
+        "rangecell": "B2:B28775",
+        "columnkey": "{\"A\":\"Title\",\"B\":\"Description\"}",
+        "sheet": "Sheet1",
+        "x": 270,
+        "y": 1100,
+        "wires": [
+            [
+                "e9ebf4aa3769244c"
+            ]
+        ]
+    },
+    {
+        "id": "b7c08416053a1df8",
+        "type": "csv",
+        "z": "657f2a0191ed7286",
+        "name": "",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 730,
+        "y": 1100,
+        "wires": [
+            [
+                "e40be6101a8d1501"
+            ]
+        ]
+    },
+    {
+        "id": "e40be6101a8d1501",
+        "type": "function",
+        "z": "657f2a0191ed7286",
+        "name": "function 22",
+        "func": "msg.payload = Number(msg.payload); \nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 940,
+        "y": 1100,
+        "wires": [
+            [
+                "211bb267fc1910f5"
+            ]
+        ]
+    },
+    {
+        "id": "dd7dc4590b8e4881",
+        "type": "influxdb out",
+        "z": "657f2a0191ed7286",
+        "influxdb": "e27a60d575266432",
+        "name": "",
+        "measurement": "average value",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "SOILEYE",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 1650,
+        "y": 260,
+        "wires": []
+    }
+]
