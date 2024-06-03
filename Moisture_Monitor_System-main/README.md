@@ -12,7 +12,10 @@ We use the hardware components of Arduino uno and HC-05 Bluetooth module as well
 See the hardware folder for specific descriptions.
 
 Below is a diagram depicting the hardware.
-![image](https://github.com/zqy2023/Moisture_Monitor_System/blob/main/Hardware/Hardware.png)
+![image](https://github.com/LetMeHaveANamePlz/SoilEye/blob/main/Moisture_Monitor_System-main/Hardware/Hardware-DHT11.jpg)
+![image]()
+![image]()
+
 
 ## Software
 - Node red
