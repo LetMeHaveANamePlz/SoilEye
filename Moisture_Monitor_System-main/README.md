@@ -20,6 +20,10 @@ Below is a diagram depicting the hardware.
 ![image](https://github.com/LetMeHaveANamePlz/SoilEye/blob/main/Moisture_Monitor_System-main/Hardware/Hardware-soil%20moistrue.png)
 ![image](https://github.com/LetMeHaveANamePlz/SoilEye/blob/main/Moisture_Monitor_System-main/Hardware/Hardware-pump.jpg)
 
+Below is a image of  the hardware
+![image]()
+![image]()
+![image]()
 
 ## Software
 - Node red
