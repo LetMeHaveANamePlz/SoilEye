@@ -51,7 +51,7 @@ Before:
 After:
 
 ![image](https://github.com/LetMeHaveANamePlz/SoilEye/blob/main/Moisture_Monitor_System-main/test%20image/Averages.png)
-
+![iMAGE](https://github.com/LetMeHaveANamePlz/SoilEye/blob/main/Moisture_Monitor_System-main/test%20image/Humidity%20trend.png)
 ## Authors
 
 - [Haina Wang (UTS)](https://github.com/zqy2023)
