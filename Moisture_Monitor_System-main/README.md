@@ -38,7 +38,7 @@ Below is a diagram depicting the hardware.
   We use Grafana to visualize our data and provide a simple and easy to read GUI.
 
   Here's an example of grafana's dashboard, as a simple GUI. The import code can be found in the software folder.
-![image](https://github.com/zqy2023/Moisture_Monitor_System/blob/main/Software/grafana_dashboard.png)
+![image](https://github.com/LetMeHaveANamePlz/SoilEye/blob/main/Moisture_Monitor_System-main/test%20image/Grafana%20panel.png)
 
 ## Running Tests
 
