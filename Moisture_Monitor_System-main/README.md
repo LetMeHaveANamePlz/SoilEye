@@ -26,7 +26,7 @@ Below is a diagram depicting the hardware.
   We use node red for data segmentation and email alerts.
 
   The follow is the node red image, and the import code can be found in the software folder.
-![image](https://github.com/zqy2023/Moisture_Monitor_System/blob/main/Software/node_red.png)
+![image](https://github.com/LetMeHaveANamePlz/SoilEye/blob/main/Moisture_Monitor_System-main/Software/Node-RED.png)
 
 - InfluxDB
   We use influxDB classification for storage and identification.
