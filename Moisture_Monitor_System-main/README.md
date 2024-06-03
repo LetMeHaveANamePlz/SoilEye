@@ -50,7 +50,7 @@ Before:
 
 After:
 
-![image](https://github.com/zqy2023/Moisture_Monitor_System/blob/main/test%20image/grafana%20dashboard%20after%20importing%20data.png)
+![image](https://github.com/LetMeHaveANamePlz/SoilEye/blob/main/Moisture_Monitor_System-main/test%20image/Averages.png)
 
 ## Authors
 
