@@ -60,12 +60,13 @@ After:
 
 ## Authors
 
-- [Haina Wang (UTS)](https://github.com/zqy2023)
+- [Haina Wang (UTS)]
 - [Can Cao (UTS)]
+- [Yifan Song (UTS)]
 - [Zhe Liu (UTS)]
 - [Zhenlin Dai (UTS)]
-- [Mohan Li (UTS)]
+- [Zhengxin Ma (UTS)]
 
 ## Support
 
-For support, email wanghainacn@outlook.com to contact us.
+For support, email songyifan_dl@outlook.com to contact us.
