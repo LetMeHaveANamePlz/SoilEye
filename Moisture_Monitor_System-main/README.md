@@ -20,7 +20,8 @@ Below is a diagram depicting the hardware.
 ![image](https://github.com/LetMeHaveANamePlz/SoilEye/blob/main/Moisture_Monitor_System-main/Hardware/Hardware-soil%20moistrue.png)
 ![image](https://github.com/LetMeHaveANamePlz/SoilEye/blob/main/Moisture_Monitor_System-main/Hardware/Hardware-pump.jpg)
 
-Below is a image of  the hardware
+Below is a image of  the hardware.
+
 ![image](https://github.com/LetMeHaveANamePlz/SoilEye/blob/main/Moisture_Monitor_System-main/test%20image/6d6ed22f46bf2085ac436c5148e736c.jpg)
 ![image](https://github.com/LetMeHaveANamePlz/SoilEye/blob/main/Moisture_Monitor_System-main/test%20image/e644d0ed40a74b39c40f4bae27dd476.jpg)
 ![image](https://github.com/LetMeHaveANamePlz/SoilEye/blob/main/Moisture_Monitor_System-main/test%20image/8599e9e8d5b2154883617941752cbff.jpg)
