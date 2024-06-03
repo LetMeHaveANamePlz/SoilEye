@@ -21,7 +21,7 @@ Below is a diagram depicting the hardware.
 ![image](https://github.com/LetMeHaveANamePlz/SoilEye/blob/main/Moisture_Monitor_System-main/Hardware/Hardware-pump.jpg)
 
 Below is a image of  the hardware
-![image]()
+![image](https://github.com/LetMeHaveANamePlz/SoilEye/blob/main/Moisture_Monitor_System-main/test%20image/6d6ed22f46bf2085ac436c5148e736c.jpg)
 ![image]()
 ![image]()
 
